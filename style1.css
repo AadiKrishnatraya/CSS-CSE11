@@ -1,8 +1,63 @@
-@media(max-width:768px){
+/* @media(max-width:768px){
     p{
         font-size: 80px;
     }
     body{
         background-color: aquamarine;
     }
+} */
+
+/* .box{
+    width: 100%;
+    height: 100px;
+    background: greenyellow;
 }
+
+@media(min-width:768px){
+    .box{
+        background-color: red;;
+    }
+} */
+
+/* li{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* @media(max-width:768px){
+    p{
+        background-color: lemonchiffon;
+    }
+*/
+
+.box{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    background-color: wheat;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px ;
+    
+}
+.card{
+   height: 100px;
+   width: 100px;
+   box-shadow: 2px 4px 8px rgba(0,0,0,0.3);
+   background-color: darkcyan;
+   border-radius: 10px;
+   align-content: center;
+   text-align: center;
+}
+@media(max-width:786px){
+    .card{
+        background-color: turquoise;
+    }
+}
+
