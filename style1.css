@@ -1,0 +1,8 @@
+@media(max-width:768px){
+    p{
+        font-size: 80px;
+    }
+    body{
+        background-color: aquamarine;
+    }
+}
