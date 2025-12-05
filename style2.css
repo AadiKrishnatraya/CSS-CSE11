@@ -1,0 +1,26 @@
+.box{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    background-color: wheat;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px ;
+    
+}
+.card{
+   height: 100px;
+   width: 100px;
+   box-shadow: 2px 4px 8px rgba(0.1,0.6,5,0.3);
+   background-color: darkcyan;
+   border-radius: 10px;
+   align-content: center;
+   text-align: center;
+   margin: 10px;
+}
+@media(max-width:786px){
+    .card{
+        background-color: turquoise;
+    }
+}
